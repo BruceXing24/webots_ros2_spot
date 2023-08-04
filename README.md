@@ -72,3 +72,6 @@ To launch mapping with RTABMAP: #https://github.com/introlab/rtabmap_ros
 Teleop keyboard:
 
     ros2 run spot_teleop spot_teleop_keyboard
+
+
+https://github.com/BruceXing24/webots_ros2_spot_2
