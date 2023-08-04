@@ -23,6 +23,9 @@ setup(
         (os.path.join('share', package_name, 'protos', 'textures'), glob('protos/textures/*')),
         (os.path.join('share', package_name, 'protos', 'SpotArm', 'meshes'), glob('protos/SpotArm/meshes/*')),
         (os.path.join('share', package_name, 'params'), glob('params/*.yaml')),
+        (os.path.join('share', package_name, 'map'), glob('map/*.yaml')),
+        (os.path.join('share', package_name, 'map'), glob('map/*.pgm')),
+        
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -37,6 +40,7 @@ setup(
             'spot_pointcloud2 = ' + package_name + '.spot_pointcloud2:main',
             'set_initial_pose = ' + package_name + '.set_initial_pose:main',
             'gpp_blocksworld_server = ' + package_name + '.gpp_blocksworld_server:main',
+            'pick_place = ' + package_name + '.task4_3:main',
         ],
     },
 )

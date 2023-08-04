@@ -9,6 +9,7 @@
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
+  <depend>webots_spot_msgs</depend>
 
   <exec_depend>builtin_interfaces</exec_depend>
   <exec_depend>webots_spot_msgs</exec_depend>

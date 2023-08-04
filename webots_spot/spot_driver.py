@@ -347,10 +347,10 @@ class SpotDriver:
         self.fixed_motion = False
 
         if not self.__node.count_publishers('/Spot/inverse_gait_input'):
-            StepLength = 0.08
-            ClearanceHeight = 0.01
-            PenetrationDepth = 0.003
-            SwingPeriod = 0.4
+            StepLength = 0.16
+            ClearanceHeight = 0.02
+            PenetrationDepth = 0.006
+            SwingPeriod = 0.2
             YawControl = 0.0
             YawControlOn = 0.0
             StepVelocity = 0.2
